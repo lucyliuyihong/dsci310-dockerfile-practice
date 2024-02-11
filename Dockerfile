@@ -10,5 +10,5 @@ RUN conda install -y --quiet \
 
 # Install pandas and ggplot using conda
 RUN conda install --yes \
-    'pandas' \
-    'r-ggplot2'
+    'pandas=2.2.0' \
+    'r-ggplot2=3.4.2'
